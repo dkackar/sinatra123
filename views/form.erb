@@ -1,2 +1,11 @@
 <!-- Form -->
-
+<form method="post" action ="/">
+  <br><br>
+  From <input type="text" name="From">
+  To <input type="text" name="To">
+  <br><br>
+  <button type="submit" name="click" value="play"></button>
+  <% if !message.empty? %>
+     <p><%=message%><p>
+  <% end  %>
+</form>  
